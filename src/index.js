@@ -6,8 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+ //  <React.StrictMode>
     <App />
-  </React.StrictMode>
+  // </React.StrictMode> // 2 api calls to check any inconsistency while rendering. omly in dev mode
 );
 reportWebVitals();
