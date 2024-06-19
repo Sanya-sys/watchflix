@@ -1,5 +1,11 @@
 {
-    "javascript.suggest.autoImports": true,
-    "typescript.suggest.autoImports": true,
-    "editor.snippetSuggestions": "top"
+  // other settings
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascript",
+    "html": "HTML",
+    "plaintext": "javascript"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
   }
+}
