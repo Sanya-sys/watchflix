@@ -1,8 +1,11 @@
 import React from 'react'
+import MovieSuggestions from './MovieSuggestions'
 
 const TrendingMovieList = () => {
   return (
-    <div>TrendingMovieList</div>
+    <div>
+      <MovieSuggestions/>
+    </div>
   )
 }
 

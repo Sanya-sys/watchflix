@@ -20,7 +20,7 @@ const VideoStreaming = ({ movieId }) => {
     );
     const videoTrailer = filteredData.length
       ? filteredData[0]
-      : json.results[1];
+      : json.results[0];
 
     console.log("videoTrailer", videoTrailer);
     dispatch(addTrailerVideo(videoTrailer));
