@@ -1,6 +1,5 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import TrendingMovieList from "./TrendingMovieList";
 import VideoStreaming from "./VideoStreaming";
 import VideoTitle from "./VideoTitle";
 
@@ -9,7 +8,7 @@ const HighlightMovie = () => {
 
   if (!movies) return;
 
-  const highlightMovie = movies[19];
+  const highlightMovie = movies[0];
 
   const { original_title, overview, id } = highlightMovie;
 
@@ -17,7 +16,6 @@ const HighlightMovie = () => {
     <div>
       <VideoTitle title={original_title} overview={overview} />
       <VideoStreaming movieId={id} />
-      <TrendingMovieList/>
     </div>
   );
 };
